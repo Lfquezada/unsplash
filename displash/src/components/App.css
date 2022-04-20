@@ -1,18 +1,17 @@
 body {
-    background: rgb(197, 197, 197);
+    background: rgb(255, 255, 255);
     text-align: center;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
 button {
-    margin-bottom: 40px;
     color: rgba(0, 0, 0, 0.365);
     background-color: rgba(0, 0, 0, 0.1);
     outline-color: rgba(0, 0, 0, 0);
     text-align: center;
     font-size: 18px;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     padding: 15px 32px;
     border: 2px solid #ffffff20;
