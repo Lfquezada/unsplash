@@ -26,7 +26,7 @@ export default class Header extends React.Component {
             <button type="button">Log in / Sign up</button>
           </div>
           <div className="button_box">
-            <button type="button" className="button_submit">Submit a photo</button>
+            <button type="button" className="button_submit">Submit</button>
           </div>
           <div id="spacer_div" />
           <img id="menu_logo" src={menuLogo} alt="Menu" />
