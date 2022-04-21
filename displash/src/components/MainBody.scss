@@ -18,8 +18,8 @@
             h1 {
                 color: #ffffff;
                 font-size: 46px;
-                padding-top: 144px;
-                padding-left: 250px;
+                padding-top: 140px;
+                padding-left: 256px;
                 padding-right: 250px;
                 font-family: Arial, Helvetica, sans-serif;
                 text-align: left;
@@ -55,9 +55,52 @@
     }
 }
 
+.body_small {
+    font-size: 15px !important;
+}
 
 .light {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.light_center {
+    color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+    padding-left: 30%;
+}
+
+a {
+    background-color: initial;
+    transition: all 0.1s ease-in-out;
+}
+
+.custom_a_zoom {
+    color: #fffc;
+    cursor: zoom-in;
+    text-decoration: none;
+}
+
+.custom_a {
+    color: #fffc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.body_left {
+    padding: 0 !important;
+    font-size: 13px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+}
+
+.body_center {
+    padding: 0 !important;
+    font-size: 13px !important;
+    text-align: center !important;
+    padding-bottom: 10px !important;
 }
 
 #spacer_div {
@@ -67,3 +110,4 @@
 #spacer_large_div {
     height: 200px;
 }
+
