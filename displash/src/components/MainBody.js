@@ -25,15 +25,20 @@ function MainBody() {
             <a href="https://unsplash.com/images/feelings/love" className="custom_a"> love </a>
           </body>
           <div id="spacer_large_div" />
-          <body className="body_left">
-            <a href="https://unsplash.com/photos/oeAcCi49Blg" className="custom_a_zoom"> Photo of the Day </a>
-            <text className="light">by</text>
-            <a href="https://unsplash.com/@luisferquez" className="custom_a"> Luis </a>
-            <body className="body_center">
+          <div id="gridded_div">
+            <div className="class_left">
+              <a href="https://unsplash.com/photos/Yxf4Yj0IjTU" className="custom_a_zoom"> Photo of the Day </a>
+              <text className="light">by</text>
+              <a href="https://unsplash.com/@luisferquez" className="custom_a"> Luis </a>
+            </div>
+            <div className="class_center">
               <text className="light">Read more about the </text>
               <a href="https://unsplash.com/license" className="custom_a">Displash License</a>
-            </body>
-          </body>
+            </div>
+            <div className="class_right">
+              <text className="light">Start your website with Squarespace today.</text>
+            </div>
+          </div>
         </div>
       </div>
     </div>

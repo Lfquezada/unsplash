@@ -6,6 +6,7 @@ import "./App.scss";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import MainBody from "./MainBody";
+import PhotoGrid from "./PhotoGrid";
 
 export default class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ export default class App extends React.Component {
         <Header />
         <NavBar />
         <MainBody />
+        <PhotoGrid />
       </div>
     );
   }

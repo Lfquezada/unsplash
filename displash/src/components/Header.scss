@@ -8,6 +8,10 @@
     line-height: 1.6;
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
+    position: sticky;
+    z-index: 4;
+    top: 0px;
 }
 
 #title {
