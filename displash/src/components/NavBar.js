@@ -21,6 +21,10 @@ export default class Header extends React.Component {
           <button type="button" className="nav_button"> Nature </button>
           <button type="button" className="nav_button"> Business & Work </button>
           <button type="button" className="nav_button"> Fashion </button>
+          <button type="button" className="nav_button"> Film </button>
+          <button type="button" className="nav_button"> People </button>
+          <button type="button" className="nav_button"> Interiors </button>
+          <button type="button" className="nav_button"> Street </button>
         </ul>
         <div id="spacer_div" />
         <img id="right_arrow" src={rightArrow} alt="right_arrow" />

@@ -24,7 +24,7 @@ function MainBody() {
             <a href="https://unsplash.com/images/feelings/happy" className="custom_a"> happy</a>,
             <a href="https://unsplash.com/images/feelings/love" className="custom_a"> love </a>
           </body>
-          <div id="spacer_large_div" />
+          <div id="spacer_large_div_body" />
           <div id="gridded_div">
             <div className="class_left">
               <a href="https://unsplash.com/photos/Yxf4Yj0IjTU" className="custom_a_zoom"> Photo of the Day </a>
