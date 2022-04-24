@@ -18,7 +18,7 @@
             h1 {
                 color: #ffffff;
                 font-size: 46px;
-                padding-top: 140px;
+                padding-top: 120px;
                 width: 45%;
                 margin-left: auto;
                 margin-right: auto;
@@ -70,6 +70,13 @@
     color: rgba(255, 255, 255, 0.65);
 }
 
+.light_padded {
+    color: rgba(255, 255, 255, 0.65);
+    padding-right: 5px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
 .light_center {
     color: rgba(255, 255, 255, 0.65);
     text-align: center;
@@ -108,7 +115,7 @@ a:hover {
 }
 
 #spacer_large_div_body {
-    height: 150px;
+    height: 100px;
 }
 
 #gridded_div {
@@ -131,4 +138,10 @@ a:hover {
 
 .class_right {
     text-align: right !important;
+}
+
+#sqs_logo {
+    height: 34px;
+    width: 150px;
+    padding-right: 5px;
 }

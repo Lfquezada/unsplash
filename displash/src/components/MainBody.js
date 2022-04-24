@@ -11,7 +11,6 @@ function MainBody() {
           <body> The internet&apos;s source of <u><a href="https://unsplash.com/license" className="custom_a">freely-usable images</a></u>. </body>
           <body> Powered by creators everywhere. </body>
           <div id="spacer_div" />
-          <div id="spacer_div" />
           <input
             className="main_input"
             placeholder="Search free high-resolution photos"
@@ -36,6 +35,8 @@ function MainBody() {
               <a href="https://unsplash.com/license" className="custom_a">Displash License</a>
             </div>
             <div className="class_right">
+              <img id="sqs_logo" src="https://images.unsplash.com/file-1606177908946-d1eed1cbe4f5image" alt="SQS_SPACE" />
+              <br />
               <text className="light">Start your website with Squarespace today.</text>
             </div>
           </div>

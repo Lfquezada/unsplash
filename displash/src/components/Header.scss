@@ -8,7 +8,7 @@
     line-height: 1.6;
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 0px;
     position: sticky;
     z-index: 4;
     top: 0px;
@@ -23,6 +23,8 @@
 #home_logo {
     height: 32px;
     width: 32px;
+    padding-left: 0px;
+    padding-top: 0px;
 }
 
 #menu_logo {
@@ -68,7 +70,7 @@
 
 button {
     color: #767676;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     outline-color: rgba(0, 0, 0, 0);
     border-width: 0px;
     text-align: center;
